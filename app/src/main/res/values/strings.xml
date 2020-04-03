@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyAppAula1</string>
+    <string name="Name">Enter your name</string>
+    <string name="Button_send">Send</string>
+    <string name="Email">Enter your email</string>
+    <string name="Phonenumber">Enter your phonenumber</string>
+    <string name="Age">Enter your age</string>
+    <string name="Weight">Enter your weight</string>
+    <string name="Height">Enter your height</string>
+</resources>
