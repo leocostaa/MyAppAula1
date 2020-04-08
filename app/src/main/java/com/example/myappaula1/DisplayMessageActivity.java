@@ -16,29 +16,29 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
 
-        String message2 = intent.getStringExtra("Nome");
+        String Nome = intent.getStringExtra("Nome");
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(message2);
+        textView.setText(Nome);
 
-        String message3 = intent.getStringExtra("Age");
+        String Age = intent.getStringExtra("Age");
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(message3);
+        textView2.setText(Age);
 
-        String message4 = intent.getStringExtra("Email");
+        String Email = intent.getStringExtra("Email");
         TextView textView3 = (TextView) findViewById(R.id.textView3);
-        textView3.setText(message4);
+        textView3.setText(Email);
 
-        String message5 = intent.getStringExtra("Height");
+        String Height = intent.getStringExtra("Height");
         TextView textView4 = (TextView) findViewById(R.id.textView4);
-        textView4.setText(message5);
+        textView4.setText(Height);
 
-        String message6 = intent.getStringExtra("PhoneNumber");
+        String Phone = intent.getStringExtra("PhoneNumber");
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        textView5.setText(message6);
+        textView5.setText(Phone);
 
-        String message7 = intent.getStringExtra("Weight");
+        String Weight = intent.getStringExtra("Weight");
         TextView textView6 = (TextView) findViewById(R.id.textView6);
-        textView6.setText(message7);
+        textView6.setText(Weight);
     }
 
 
